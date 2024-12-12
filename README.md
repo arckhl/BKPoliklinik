@@ -1,15 +1,19 @@
-# Login admin
-```
-login admin melalui page login dokter
+# Konfigurasi Sistem Website Poliklinik
 
-username    : admin
-password    : admin
-```
+## Login Sebagai Admin
+Login admin dilakukan melalui halaman login dokter, dengan rincian:
+- **Username**: admin
+- **Password**: admin
 
-# Login dokter
-password adalah username, jadi password dan username dimasukan nama dokter nya
+## Login Sebagai Dokter
+Login dokter dilakukan melalui halaman login dokter, menggunakan nama dokter yang sudah diinput oleh admin:
+- **Username**: nama (nama dokter)
+- **Password**: nama (nama dokter)
 
-# Database
-database mySQL phpmyadmin
-database bernama "poliklinik" file database berada dalam folder db
+## Login Sebagai Pasien
+Login pasien dan pendaftaran pasien dilakukan melalui halaman login pasien, menggunakan nama pasien dan password yang sudah terdaftar:
+- **Username**: nama (nama pasien)
+- **Password**: (password yang diinput saat pendaftaran pasien baru)
 
+## Database
+- Database dapat ditemukan di folder "db" dengan nama database: **poliklinik**.
